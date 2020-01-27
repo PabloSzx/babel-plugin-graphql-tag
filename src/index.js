@@ -8,7 +8,7 @@ import gql from 'graphql-tag';
 import createDebug from 'debug';
 import {stripIgnoredCharacters} from 'graphql';
 
-const debug = createDebug('babel-plugin-graphql-tag');
+const debug = createDebug('@pablosz/babel-plugin-graphql-tag');
 const {
   cloneDeep,
   isIdentifier,
